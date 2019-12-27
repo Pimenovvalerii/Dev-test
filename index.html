@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="label">
+            <div>
+                <span>Number of shapes :</span>
+                <span id="shapes-displayed"></span>
+            </div>
+            
+            <div id>
+                <span>
+                    Area of figures :</span>
+                <span id="area-elements">1</span>
+                <span>px</span>
+            </div>
+        </div>
+        <canvas id="canvas" width="600" height="400"></canvas>
+
+        <div class="controler">
+
+            <div class="shapes-generated">
+                <div class="title">Shapes value</div>
+                <button id="shape__inc">+</button>
+                <span id="shape__text">1</span>
+                <button id="shape__dec">-</button>
+            </div>
+
+            <div class="gravity-value">
+                <div class="title">Gravity value</div>
+                <button id="grav__inc">+</button>
+                <span id="gravity__text">1</span>
+                <button id="grav__dec">-</button>
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
